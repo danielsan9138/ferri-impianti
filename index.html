@@ -45,6 +45,24 @@ body {
   max-width: 100%;
 }
 .pulsante-chiama:focus { outline: 3px solid #ffd166; }
+/* Pezzo 2: servizi come elenco con bordo rame, non 4 carte uguali */
+.servizi {
+  padding: 40px 20px;
+  max-width: 720px;
+}
+.servizi h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 26px;
+  margin: 0 0 16px 0;
+}
+.servizi ul { list-style: none; margin: 0; padding: 0; }
+.servizi li {
+  border-left: 5px solid #c56a1a;
+  padding: 10px 0 10px 14px;
+  margin: 0 0 14px 0;
+  font-size: 17px;
+}
+.servizi li strong { display: block; font-size: 18px; }
 </style>
 </head>
 <body>
@@ -54,5 +72,15 @@ body {
 <p>Idraulico a Vicenza e provincia, dal 2009.</p>
 <a class="pulsante-chiama" href="tel:+393334567890">Chiama 333 456 7890</a>
 </header>
+<!-- Pezzo 2: i 4 servizi -->
+<section class="servizi">
+<h2>I servizi</h2>
+<ul>
+<li><strong>Riparazioni urgenti</strong>Perdite e scarichi intasati, pronto intervento anche il sabato.</li>
+<li><strong>Caldaie</strong>Installazione e manutenzione annuale.</li>
+<li><strong>Rifacimento bagni</strong>Chiavi in mano, dal progetto alla finitura.</li>
+<li><strong>Climatizzazione</strong>Impianti di climatizzazione per casa e ufficio.</li>
+</ul>
+</section>
 </body>
 </html>
